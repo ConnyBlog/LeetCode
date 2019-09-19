@@ -157,5 +157,11 @@ class Solution {
         guard left?.val == right?.val else { return false }
         return checkSymmetry(left?.left, right?.right) && checkSymmetry(left?.right, right?.left)
     }
+    
+    //637.对称二叉树
+    func averageOfLevels(_ root: TreeNode?) -> [Double] {
+        
+    }
+    
 }
 
